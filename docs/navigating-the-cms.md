@@ -22,7 +22,7 @@ Finally at the bottom of the page is the **Powered by Clover CMS** link, clickin
 
 ### Password reset request
 
-![Admin login screen](_images/_navigating-the-cms/reset-request.png)
+![Reset request screen](_images/_navigating-the-cms/reset-request.png)
 
 As with the login page, at the top of the page is the **Return to site** link and at the bottom is the **Powered by Clover CMS** link.
 
@@ -36,7 +36,7 @@ The reset link which has been sent will be valid for 24 hours and will expire af
 
 ### Reset password
 
-![Admin login screen](_images/_navigating-the-cms/reset-password.png)
+![Reset password screen](_images/_navigating-the-cms/reset-password.png)
 
 Once you have clicked the link within the email that was sent to you, you will be taken to the reset password page. This page also features the **Return to site**, **Powered by Clover CMS** and **Return to login** links.
 
@@ -47,3 +47,17 @@ You can also click the Generate Password button which will fill in both fields a
 Once you have set your new password it will be changed immediately, you can now return to login and sign in with the new password.
 
 ## CMS layout
+
+![CMS dashboard](_images/_navigating-the-cms/cms-dashboard.png)
+
+Once you have logged in you will be presented with the dashboard. We will go into more detail about this page [here](dashboard.md)
+
+Along the left hand side of the page is the main navigation menu. The first link on this menu **Toggle Menu** will collapse it to the left, leaving you with a full screen. To return the menu, look to the top left corner where there is a faded button, clicking this button will expand the menu.
+
+![CMS dashboard](_images/_navigating-the-cms/toggle-menu.png)
+
+Each of the other menu items will be explained in more detail in the following sections.
+
+At the very bottom of the menu is a link to the [Github](https://github.com/Edward144/Clover-CMS/releases), along with the current version of the CMS.
+
+Finally at the top right of the page is the Logout button which will sign you out of the CMS. PHP sessions are used to store active logins so you will be automatically signed out if you do not interact with the CMS for a certain amount of time.
